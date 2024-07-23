@@ -1,0 +1,18 @@
+{
+    "name": "pumahs/site-slim-framework4",
+    "require-dev": {
+        "slim/slim": "^4.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pumahs\\SiteSlimFramework4\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Clerison",
+            "email": "cosclerison@gmail.com"
+        }
+    ],
+    "require": {}
+}
