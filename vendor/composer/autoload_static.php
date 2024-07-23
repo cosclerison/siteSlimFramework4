@@ -11,13 +11,16 @@ class ComposerStaticInitb85b65e0d6174ccfd6c0dc2a43349284
     );
 
     public static $prefixLengthsPsr4 = array (
+        'a' => 
+        array (
+            'app\\' => 4,
+        ),
         'S' => 
         array (
             'Slim\\' => 5,
         ),
         'P' => 
         array (
-            'Pumahs\\SiteSlimFramework4\\' => 26,
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Server\\' => 16,
             'Psr\\Http\\Message\\' => 17,
@@ -34,13 +37,13 @@ class ComposerStaticInitb85b65e0d6174ccfd6c0dc2a43349284
     );
 
     public static $prefixDirsPsr4 = array (
+        'app\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
+        ),
         'Slim\\' => 
         array (
             0 => __DIR__ . '/..' . '/slim/slim/Slim',
-        ),
-        'Pumahs\\SiteSlimFramework4\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
         'Psr\\Log\\' => 
         array (
