@@ -23,6 +23,10 @@ class ComposerStaticInitb85b65e0d6174ccfd6c0dc2a43349284
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
         ),
+        'L' => 
+        array (
+            'League\\Plates\\' => 14,
+        ),
         'F' => 
         array (
             'FastRoute\\' => 10,
@@ -49,12 +53,16 @@ class ComposerStaticInitb85b65e0d6174ccfd6c0dc2a43349284
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'League\\Plates\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/plates/src',
         ),
         'FastRoute\\' => 
         array (

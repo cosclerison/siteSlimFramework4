@@ -1,15 +1,24 @@
 <?php return array(
     'root' => array(
         'name' => 'pumahs/site-slim-framework4',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '013150a6aff81ac329b9d37c1d52357bf87e5793',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
+        'league/plates' => array(
+            'pretty_version' => 'v3.5.0',
+            'version' => '3.5.0.0',
+            'reference' => 'a6a3238e46c6e19af7318fdc36bfbe49b0620231',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../league/plates',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'nikic/fast-route' => array(
             'pretty_version' => 'v1.3.0',
             'version' => '1.3.0.0',
@@ -74,9 +83,9 @@
             'dev_requirement' => true,
         ),
         'pumahs/site-slim-framework4' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '013150a6aff81ac329b9d37c1d52357bf87e5793',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
