@@ -18,5 +18,8 @@
     }
 
     #Execute o Comando dump autoload para recarregar as configurações do composer.json
+    $ composer dump-autoload 
+    ou abreviado
     $ composer du
+
 
