@@ -1,6 +1,9 @@
 # Inicio do site com framework4
 
+    #para iniciar o composer
     $ composer init
+
+    #para inserir as bibliotecas
     $ composer require 
         slim
 
@@ -18,8 +21,9 @@
     }
 
     #Execute o Comando dump autoload para recarregar as configurações do composer.json
-    $ composer dump-autoload 
-    ou abreviado
-    $ composer du
+        $ composer dump-autoload 
+        ou abreviado
+        $ composer du
 
-
+## para subir o mini projeto 
+    $ php -S localhost:8000 -t public
